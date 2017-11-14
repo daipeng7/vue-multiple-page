@@ -28,6 +28,10 @@ module.exports = {
   module: {
     rules: [
       {
+          test: /\.(htm|html)$/i,
+          loader: 'html-withimg-loader'
+      },
+      {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: vueLoaderConfig
