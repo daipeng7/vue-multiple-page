@@ -12,6 +12,7 @@
   "dependencies": {
     "glob": "^7.1.2",
     "html-withimg-loader": "^0.1.16",
+    "image-webpack-loader": "^3.4.2",
     "postcss-loader": "^2.0.8",
     "vue": "^2.5.2"
   },
